@@ -8,6 +8,17 @@
 
 _A webpage that mimics the functionality of Etsy with Angular components._
 
+##Specs
+* _CSS styling that mimics the homepage of Etsy_
+* _Media Queries that allow for different screen sizes_
+* _As a user I want to see the current "popular now" results, and be able to click them using the list component_
+
+## Components
+* _List component: will list "popular now" results_
+
+## Completed Features
+* __
+
 ## Setup
 * _Clone this repository_
 https://github.com/nayomi-morita/angular-friday.git
