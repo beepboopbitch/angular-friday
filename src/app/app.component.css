@@ -1,7 +1,3 @@
-/* header */
-header{
-
-}
 /* top */
 .top{
   padding: 15px 20px 0 20px;
@@ -57,9 +53,16 @@ header{
   margin-top: 10px;
 }
 /* top end */
+
+
+
+
+
 /* bottom */
-.bottom{
+.bottomMain{
   border: 1px solid lightgray;
+}
+.bottom{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -71,11 +74,34 @@ header{
   text-align: center;
   font-size: 15px;
 }
+.bottomSearch{
+  display: none;
+}
 /* bottom end */
+
+
+
+
+
 /* media query */
 @media screen and (max-width: 900px){
-  body{
-    background-color: red;
+  .input{
+    display: none;
+  }
+  .bottom{
+    display: none;
+  }
+  .bottomSearch{
+    display: block;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .searchInput{
+    width: 70%;
+  }
+  .searchButton{
+    width: 19%;
   }
 }
 /* media query end */
