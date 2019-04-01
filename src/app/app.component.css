@@ -185,6 +185,38 @@
   .searchButton{
     width: 19%;
   }
+
+
+  /* grid */
+  .shopGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.2fr 0.8fr 1fr;
+    grid-template-areas: "main main main main" "main main main main" "side side side side" "side side side side";
+  }
+  .main{
+    width: 100%;
+  }
+  .side{
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-area: side;
+    height: 200px;
+  }
+  .sideDescriptor img{
+    width: 95%;
+    height: 200px;
+  }
+  .sideBottom{
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+  }
+  .sideBottom p{
+    margin-top: 80px;
+  }
 }
 @media screen and (max-width: 640px){
   .quote{
