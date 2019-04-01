@@ -72,3 +72,10 @@ header{
   font-size: 15px;
 }
 /* bottom end */
+/* media query */
+@media screen and (max-width: 900px){
+  body{
+    background-color: red;
+  }
+}
+/* media query end */
