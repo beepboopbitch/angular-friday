@@ -19,7 +19,7 @@ _A webpage that mimics the functionality of Etsy with Angular components._
 ## Completed Features
 * _Page header with working media queries_
 * _Page quote with working media queries_
-<!-- * _Main shop grid with working media queries_ -->
+* _Main shop grid with working media queries_
 
 ## My Clone:
 
