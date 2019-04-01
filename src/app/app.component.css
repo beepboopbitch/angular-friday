@@ -4,11 +4,12 @@ header{
 }
 /* top */
 .top{
-  margin: 15px 20px 0 20px;
+  padding: 15px 20px 0 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+
+  border: 1px solid lightgray;
 }
 .logo{
   height: 50px;
@@ -20,10 +21,20 @@ header{
   background-color: white;
   border-color: black;
   border-radius: 3px;
+  height: 35px;
+  width:70px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
-.right, .left{
+.right{
   display: flex;
   flex-direction: row;
+}
+.left{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
 }
 .input{
   margin-top: 10px;
@@ -42,7 +53,8 @@ header{
   font-size: 15px;
   border-radius: 5px;
 }
-.left p{
+.right p{
   margin-left: 20px;
+  margin-top: 10px;
 }
 /* bottom */
