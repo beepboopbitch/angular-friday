@@ -96,12 +96,24 @@
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .searchInput{
     width: 70%;
   }
   .searchButton{
     width: 19%;
+  }
+}
+@media screen and (max-width: 520px){
+  .one{
+    display: none;
+  }
+}
+@media screen and (max-width: 420px){
+  .two{
+    display: none;
   }
 }
 /* media query end */

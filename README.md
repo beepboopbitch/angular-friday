@@ -17,6 +17,7 @@ _A webpage that mimics the functionality of Etsy with Angular components._
 * _List component: will list "popular now" results_
 
 ## Completed Features
+* _Page header with working media queries_
 * __
 
 ## Setup
