@@ -161,6 +161,22 @@
 
 
 
+/* descriptions */
+.descriptions{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 20px 0 10px;
+}
+.des{
+  width: 33%;
+  margin: 0 20px 0 20px;
+}
+/* descriptions end */
+
+
+
+
+
 /* media query */
 @media screen and (max-width: 900px){
   .input{
