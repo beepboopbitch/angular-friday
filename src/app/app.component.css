@@ -83,6 +83,20 @@
 
 
 
+/* quote  */
+.quote{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* quote end */
+
+
+
+
+
 /* media query */
 @media screen and (max-width: 900px){
   .input{
@@ -104,6 +118,11 @@
   }
   .searchButton{
     width: 19%;
+  }
+}
+@media screen and (max-width: 640px){
+  .quote{
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 520px){
