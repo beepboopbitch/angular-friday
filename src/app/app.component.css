@@ -8,7 +8,6 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   border: 1px solid lightgray;
 }
 .logo{
@@ -57,4 +56,19 @@ header{
   margin-left: 20px;
   margin-top: 10px;
 }
+/* top end */
 /* bottom */
+.bottom{
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 20px;
+}
+.bottom p{
+  width: 70px;
+  text-align: center;
+  font-size: 15px;
+}
+/* bottom end */
