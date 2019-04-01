@@ -18,7 +18,7 @@ _A webpage that mimics the functionality of Etsy with Angular components._
 
 ## Completed Features
 * _Page header with working media queries_
-* __
+* _Page quote with working media queries_
 
 ## Setup
 * _Clone this repository_
