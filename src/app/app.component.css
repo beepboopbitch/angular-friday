@@ -270,6 +270,9 @@
   .def{
     font-size: 12px;
   }
+  .descriptor{
+    font-size: 23px;
+  }
 }
 @media screen and (max-width: 640px){
   .quote{
@@ -343,6 +346,9 @@
   }
   .defHide{
     display: none;
+  }
+  .descriptor{
+    font-size: 23px;
   }
 }
 @media screen and (max-width: 520px){
