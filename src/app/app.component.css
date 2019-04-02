@@ -120,8 +120,9 @@
 }
 .main img {
   height: 300px;
-  overflow: hidden;
-  position:
+  /* overflow: hidden; */
+  width:60%;
+  /* position: relative; */
 
 }
 .side {
@@ -177,11 +178,10 @@
 .checked{
   font-size: 17px;
   margin-bottom: 5px;
+  text-align: center;
 }
 .def{
   font-size: 15px;
-}
-p{
   text-align: center;
 }
 /* descriptions end */
