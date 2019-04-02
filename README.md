@@ -17,9 +17,9 @@ _A webpage that mimics the functionality of Etsy with Angular components._
 * _List component: will list "popular now" results_
 
 ## Completed Features
-* _Page header with working media queries_
-* _Page quote with working media queries_
-* _Main shop grid with working media queries_
+* _Page header with working media queries for multiple sizes_
+* _Page quote with working media queries for multiple sizes_
+* _Main shop grid with working media queries for multiple sizes_
 
 ## My Clone:
 

@@ -165,7 +165,7 @@
 .descriptions{
   display: flex;
   flex-direction: row;
-  margin: 10px 20px 0 10px;
+  margin: 10px 0 0 10px;
 }
 .des{
   width: 33%;
