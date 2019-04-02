@@ -172,15 +172,15 @@
   width: 33%;
   margin: 0 20px 0 20px;
 }
-p{
-  text-align: center;
-}
 .checked{
   font-size: 17px;
   margin-bottom: 5px;
 }
 .def{
   font-size: 15px;
+}
+p{
+  text-align: center;
 }
 /* descriptions end */
 
@@ -242,6 +242,27 @@ p{
   .sideBottom p{
     margin-top: 80px;
   }
+
+
+
+  /* descriptions  */
+  .descriptions{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 10px;
+  }
+  .des{
+    width: 33%;
+    margin: 0 20px 0 20px;
+  }
+  .checked{
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .def{
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 640px){
   .quote{
@@ -291,6 +312,30 @@ p{
     padding-bottom: 40px;
     text-align: left;
     margin-left: 10px;
+  }
+
+
+
+
+  /* descriptions */
+  .des2, .des3{
+    display: none;
+  }
+  .des1{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .descriptions{
+    margin: 0 15% 0 15%;
+  }
+  .checked{
+    font-size: 17px;
+  }
+  .def{
+    font-size: 15;
+  }
+  .defHide{
+    display: none;
   }
 }
 @media screen and (max-width: 520px){
