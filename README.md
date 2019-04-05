@@ -31,6 +31,7 @@ _A webpage that mimics the functionality of Etsy with Angular components._
 
 ## Research
 * _Reading into firebase/looking at other projects_
+* _I'm still very confused over syntax and how everything is moving_
 
 ## My Clone:
 
