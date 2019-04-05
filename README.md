@@ -20,9 +20,10 @@ _A webpage that mimics the functionality of Etsy with Angular components._
 * _Page header with working media queries for multiple sizes_
 * _Page quote with working media queries for multiple sizes_
 * _Main shop grid with working media queries for multiple sizes_
+* _Populars grid with working media queries for multiple sizes_
 
-## Goals
-* _Style populars and have working media queries: in progress_
+## Goals for today
+* _Style populars and have working media queries: completed_
 * _Successfully setup firebase database: in progress_
 * _App communication with firebase: in progress_
 * _Display of firebase data: in progress_
