@@ -323,12 +323,6 @@
     grid-template-areas: "pop1 pop2 pop3" "pop4 pop5 pop6";
     margin: 2.5% 2.5% 0 2.5%;
   }
-  .pop1 { grid-area: pop1; }
-  .pop2 { grid-area: pop2; }
-  .pop3 { grid-area: pop3; }
-  .pop4 { grid-area: pop4; }
-  .pop5 { grid-area: pop5; }
-  .pop6 { grid-area: pop6; }
   .pop{
     width: calc(100%/6);
     margin-bottom: 20px;
@@ -414,6 +408,15 @@
 @media screen and (max-width: 520px){
   .one{
     display: none;
+  }
+}
+@media screen and (max-width: 470px){
+  .populars{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "pop1 pop2" "pop3 pop4" "pop5 pop6";
+    margin: 2.5% 2.5% 0 2.5%;
   }
 }
 @media screen and (max-width: 420px){
