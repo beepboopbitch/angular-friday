@@ -197,7 +197,15 @@
 
 /* populars */
 .populars{
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pop{
+  width: calc(100%/6);
+}
+.pop img{
+  width: 50px;
 }
 /* populars end */
 
