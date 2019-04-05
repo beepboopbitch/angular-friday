@@ -197,16 +197,24 @@
 
 /* populars */
 .populars{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "pop1 pop2 pop3 pop4 pop5 pop6";
 }
-.pop{
+.pop1 { grid-area: pop1; }
+.pop2 { grid-area: pop2; }
+.pop3 { grid-area: pop3; }
+.pop4 { grid-area: pop4; }
+.pop5 { grid-area: pop5; }
+.pop6 { grid-area: pop5; }
+/* .pop{
   width: calc(100%/6);
 }
 .pop img{
   width: 50px;
-}
+} */
+
 /* populars end */
 
 
