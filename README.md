@@ -14,12 +14,18 @@ _A webpage that mimics the functionality of Etsy with Angular components._
 * _As a user I want to see the current "popular now" results, and be able to click them using the list component_
 
 ## Components
-* _List component: will list "popular now" results_
+* _List component: will list "popular now" descriptors from firebase_
 
 ## Completed Features
 * _Page header with working media queries for multiple sizes_
 * _Page quote with working media queries for multiple sizes_
 * _Main shop grid with working media queries for multiple sizes_
+
+## Goals
+* _Successfully setup firebase database: in progress_
+* _App communication with firebase: in progress_
+* _Display of firebase data: in progress_
+* _Routing from list component: in progress_
 
 ## My Clone:
 
