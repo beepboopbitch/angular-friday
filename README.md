@@ -29,6 +29,9 @@ _A webpage that mimics the functionality of Etsy with Angular components._
 * _Display of firebase data: in progress_
 * _Routing from list component: in progress_
 
+## Research
+* _Reading into firebase/looking at other projects_
+
 ## My Clone:
 
 ![](./src/assets/img/clone.png)
