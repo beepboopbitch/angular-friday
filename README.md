@@ -24,7 +24,7 @@ _A webpage that mimics the functionality of Etsy with Angular components._
 
 ## Goals for today
 * _Style populars and have working media queries: completed_
-* _Successfully setup firebase database: in progress_
+* _Successfully setup firebase database: completed_
 * _App communication with firebase: in progress_
 * _Display of firebase data: in progress_
 * _Routing from list component: in progress_
