@@ -207,13 +207,13 @@
 .pop3 { grid-area: pop3; }
 .pop4 { grid-area: pop4; }
 .pop5 { grid-area: pop5; }
-.pop6 { grid-area: pop5; }
-/* .pop{
+.pop6 { grid-area: pop6; }
+.pop{
   width: calc(100%/6);
 }
 .pop img{
   width: 50px;
-} */
+}
 
 /* populars end */
 
