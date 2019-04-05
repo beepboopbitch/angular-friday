@@ -220,6 +220,14 @@
   margin-left: 50%;
   width: 500%;
 }
+.price{
+  font-size: 18px;
+  font-weight: bold;
+}
+.company{
+  color: gray;
+  font-size: 15px;
+}
 /* populars end */
 
 
